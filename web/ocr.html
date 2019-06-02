@@ -1,44 +1,39 @@
-
 <html>
-    <head>
-        <title>Best editor</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-    </head>
-    <body>
-        <div id="background">
-		<div id="page">
-			<div id="header">
-				
-				<div id="navigation">
-					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about.html">About</a>
-						</li>
-                                                <li class="selected">
-							<a href="ocr.html">Edit the data</a>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
-		<form action="Convert.java" method="post" enctype="multipart/form-data">
-    Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
-</form>
-	
-                                          
-                                            
-                                            
-                                            
-                                        
-				
-				
+<head>
+    <title>Best editor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<div id="background">
+    <div id="page">
+        <div id="header">
+
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="selected">
+                        <a href="ocr.html">Edit the data</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <form action="/OCR" method="post" enctype="multipart/form-data">
+            Select image to upload:
+            <input type="file" name="image" id="image"/>
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+
+    </div>
+
+
 </body>
 </html>
     

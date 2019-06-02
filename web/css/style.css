@@ -470,3 +470,8 @@ hr {
 #connect a.googleplus:hover {
 	background-position: 0 -197px;
 }
+
+form{
+	padding: 10px;
+	display: block;
+}
